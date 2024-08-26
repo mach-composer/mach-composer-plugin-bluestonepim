@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "description": "Site Bluestone PIM configuration.",
+  "required": [
+    "client_id",
+    "client_secret"
+  ],
+  "properties": {
+    "client_id": {
+      "type": "string"
+    },
+    "client_secret": {
+      "type": "string"
+    },
+    "auth_url": {
+      "type": "string"
+    },
+    "api_url": {
+      "type": "string"
+    }
+  }
+}
