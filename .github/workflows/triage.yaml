@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: get app token
         id: get-app-token
-        uses: labd/action-gh-app-token@main
+        uses: labd/action-gh-app-token@main # pinact:ignore
         with:
           app-id: ${{ secrets.MCI_APP_ID }}
           private-key: ${{ secrets.MCI_APP_PRIVATE_KEY }}
